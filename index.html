@@ -8,6 +8,944 @@
     <link rel="stylesheet" href="./css/output.css">
 </head>
 <body>
-    <div class="bg-red-400">hello</div>
+    <body class="min-h-screen flex flex-col bg-orange-50">
+
+    <!-- =========================
+         STICKY NAVIGATION SECTION
+    ========================== -->
+    <header class="sticky top-0 z-50 bg-red-900 shadow-lg">
+
+        <!-- Navigation Container -->
+        <nav class="max-w-7xl mx-auto px-6 py-4">
+
+            <div class="flex items-center justify-between">
+
+                <!-- Logo Section -->
+                <div class="flex items-center gap-2">
+                    <div class="w-10 h-10 rounded-full bg-yellow-500"></div>
+                    <h1 class="text-white text-2xl font-bold">
+                        MamaPutOnline
+                    </h1>
+                </div>
+
+                <!-- Menu Links -->
+                <ul class="hidden md:flex items-center gap-8 text-white font-medium">
+                    <li>
+                        <a href="#" class="hover:text-yellow-400 transition">
+                            Products
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-yellow-400 transition">
+                            Services
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-yellow-400 transition">
+                            Customer Service
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="hover:text-yellow-400 transition">
+                            Contact Us
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Search Section -->
+                <div class="hidden md:flex">
+                    <input
+                        type="search"
+                        placeholder="Search meals..."
+                        class="px-4 py-2 rounded-lg outline-none border border-gray-300 focus:ring-2 focus:ring-yellow-400 text-white"
+                    >
+                </div>
+
+            </div>
+
+        </nav>
+    </header>
+
+    <!-- =========================
+         MAIN CONTENT SECTION
+         (Temporary Placeholder)
+    ========================== -->
+        <main class="grow">
+
+             <section class="max-w-7xl mx-auto p-10">
+                <h2 class="text-4xl font-bold text-center text-red-900">
+                    Welcome to MamaPutOnline
+                </h2>
+
+                <p class="text-center mt-4 text-gray-600">
+                    Fresh Nigerian meals delivered to your doorstep.
+                </p>
+            </section>
+
+        </main>
+
+
+    <!-- =========================
+     HERO SECTION
+========================== -->
+<section class="w-full min-h-[30vh] bg-orange-100">
+
+    <div class="max-w-7xl mx-auto px-6 py-10">
+
+        <!-- Hero Container -->
+        <div class="grid md:grid-cols-2 gap-8 items-center">
+
+            <!-- Hero Text Content -->
+            <div class="space-y-6">
+
+                <h1 class="text-4xl md:text-6xl font-extrabold leading-tight text-red-900">
+                    Don't Miss Out on Delicious Homemade Nigerian Meals Delivered Fresh to Your Doorstep.
+                </h1>
+
+                <p class="text-lg text-gray-700">
+                    From Jollof Rice to Egusi Soup, enjoy authentic Nigerian dishes
+                    prepared with love and delivered quickly wherever you are.
+                </p>
+
+                <!-- CTA Button -->
+                <button
+                    class="bg-red-900 text-white px-8 py-4 rounded-lg text-lg font-semibold hover:bg-red-700 transition duration-300 shadow-lg"
+                >
+                    Order Now
+                </button>
+
+            </div>
+
+            <!-- Hero Image Section -->
+            <div
+                class="h-87.5 rounded-2xl border-4 border-dashed border-red-300 flex items-center justify-center bg-white shadow-md"
+            >
+
+                <!-- Replace this with your image later -->
+                <p class="text-gray-500 text-lg font-medium">
+                    Food Image Goes Here
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- =========================
+     MAIN PRODUCTS SECTION
+========================== -->
+<main class="flex max-w-7xl mx-auto w-full py-10 gap-8">
+
+    <!-- =========================
+         LEFT SIDEBAR
+    ========================== -->
+    <aside class="w-64 sticky top-24 h-fit bg-white rounded-xl shadow-lg p-6">
+
+        <h2 class="text-xl font-bold text-red-900 mb-6">
+            Categories
+        </h2>
+
+        <ul class="space-y-4">
+
+            <li>
+                <a href="#rice" class="block hover:text-red-700 font-medium">
+                    Rice Dishes
+                </a>
+            </li>
+
+            <li>
+                <a href="#soups" class="block hover:text-red-700 font-medium">
+                    Soups
+                </a>
+            </li>
+
+            <li>
+                <a href="#swallows" class="block hover:text-red-700 font-medium">
+                    Swallows
+                </a>
+            </li>
+
+            <li>
+                <a href="#protein" class="block hover:text-red-700 font-medium">
+                    Protein
+                </a>
+            </li>
+
+            <li>
+                <a href="#drinks" class="block hover:text-red-700 font-medium">
+                    Drinks
+                </a>
+            </li>
+
+        </ul>
+
+    </aside>
+
+    <!-- =========================
+         PRODUCTS AREA
+    ========================== -->
+        <section class="flex-1 space-y-16">
+
+                <!-- =========================
+             RICE DISHES
+        ========================== -->
+            <div id="rice">
+
+                <h2 class="text-3xl font-bold text-red-900 mb-6">
+                    Rice Dishes
+                </h2>
+
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                            <!-- Product Card -->
+                        <div class="bg-white rounded-xl shadow-lg p-4">
+
+                            <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                                <!-- Food Image -->
+                            </div>
+
+                            <h3 class="font-bold text-lg">
+                            Jollof Rice
+                            </h3>
+
+                            <p class="text-gray-600">
+                                Quantity: 1 Plate
+                            </p>
+
+                            <p class="text-red-900 font-bold text-xl">
+                                ₦3,500
+                            </p>
+                            <button
+                                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                                Add
+                            </button>
+
+
+                     </div>
+
+                            <!-- fried rice -->
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Fried Rice
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦4,500
+                    </p>
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <!-- native rice -->
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Native Rice
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,500
+                    </p>
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Coconut Rice
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,500
+                    </p>
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        White Rice
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦1,000
+                    </p>
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+
+               
+
+            </div>
+
+        </div>
+            <!-- SOUPS -->
+        <div id="soups">
+
+            <h2 class="text-3xl font-bold text-red-900 mb-6">
+                Soups
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <!-- Product Card -->
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Egusi Soup
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦2,000
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Okro Soup
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Black Soup
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Oha Soup
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Ogbuno Soup
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Plate
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+            </div>
+
+
+
+
+    </div>
+
+
+    <div id="swallows">
+
+            <h2 class="text-3xl font-bold text-red-900 mb-6">
+                Swallows
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <!-- Product Card -->
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Eba
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 wrap
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦200
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Fufu
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Wrap
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦200
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Amala
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Wrap
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦200
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Semo
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Wrap
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Pounded yam
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Wrap
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                     </button>
+
+
+                </div>
+            </div>
+
+
+
+
+    </div>
+
+
+
+
+<div id="protein">
+
+            <h2 class="text-3xl font-bold text-red-900 mb-6">
+                Protein
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <!-- Product Card -->
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Beef
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 3 Pic
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦2,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        cow meat
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 3 pic
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,000
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Chicken
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 2 
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦4,000
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Turkey
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 Pic
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦1,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Fried Fish
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 2 Pics
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦5,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+            </div>
+
+
+
+
+     </div>
+
+    
+
+
+<div id="drinks">
+
+            <h2 class="text-3xl font-bold text-red-900 mb-6">
+                Drinks
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-6">
+
+                <!-- Product Card -->
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Coke
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 can
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦800
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Fanta
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 can
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦800
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Hero beer
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 can
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦1,200
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Life Beer
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 can
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦1,100
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+                <div class="bg-white rounded-xl shadow-lg p-4">
+
+                    <div class="h-40 bg-gray-200 rounded-lg mb-4">
+                        <!-- Food Image -->
+                    </div>
+
+                    <h3 class="font-bold text-lg">
+                        Guniness Small-Stout
+                    </h3>
+
+                    <p class="text-gray-600">
+                        Quantity: 1 can
+                    </p>
+
+                    <p class="text-red-900 font-bold text-xl">
+                        ₦3,500
+                    </p>
+
+                     <button
+                class="bg-red-900 text-white px-3 py-2 rounded-lg hover:bg-red-700">
+                Add
+                </button>
+
+
+                </div>
+            </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+    <!-- =========================
+         STICKY FOOTER SECTION
+    ========================== -->
+    <footer class="bg-red-900 text-white mt-auto sticky bottom-0  z-50">
+
+        <div class="max-w-7xl mx-auto px-6 py-4">
+
+            <div class="flex flex-col md:flex-row justify-between items-center gap-3">
+
+                <!-- Copyright -->
+                <p>
+                    © 2026 MamaPutOnline. All Rights Reserved.
+                </p>
+
+                <!-- Footer Links -->
+                <div class="flex gap-6">
+                    <a href="#" class="hover:text-yellow-400">
+                        Privacy Policy
+                    </a>
+
+                    <a href="#" class="hover:text-yellow-400">
+                        Terms
+                    </a>
+
+                    <a href="#" class="hover:text-yellow-400">
+                        Support
+                    </a>
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
 </body>
 </html>
