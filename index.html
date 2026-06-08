@@ -24,44 +24,48 @@
                 <div class="flex items-center gap-2">
                     <div class="w-10 h-10 rounded-full bg-yellow-500"></div>
                     <h1 class="text-white text-2xl font-bold">
-                        MamaPutOnline
+                        <!-- i added the span to style the logo -->
+                        Mama<span class="text-yellow-500">Put</span>Online
+                        
                     </h1>
                 </div>
 
                 <!-- Menu Links -->
                 <ul class="hidden md:flex items-center gap-8 text-white font-medium">
                     <li>
-                        <a href="#" class="hover:text-yellow-400 transition">
+                        <a href="#" class="hover:text-yellow-400 transition hover:animate-ping">
                             Products
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="hover:text-yellow-400 transition">
+                        <a href="#" class="hover:text-yellow-400 transition  hover:animate-ping">
                             Services
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="hover:text-yellow-400 transition">
+                        <a href="#" class="hover:text-yellow-400 transition hover:animate-ping">
                             Customer Service
                         </a>
                     </li>
 
                     <li>
-                        <a href="#" class="hover:text-yellow-400 transition">
+                        <a href="#" class="hover:text-yellow-400 transition hover:animate-ping">
                             Contact Us
                         </a>
                     </li>
                 </ul>
 
                 <!-- Search Section -->
-                <div class="hidden md:flex">
-                    <input
-                        type="search"
-                        placeholder="Search meals..."
-                        class="px-4 py-2 rounded-lg outline-none border border-gray-300 focus:ring-2 focus:ring-yellow-400 text-white"
-                    >
+                <div class="hidden md:flex  px-4 py-2 rounded-lg  border border-gray-300 focus:ring-2 focus:ring-yellow-400 text-white justify-between gap-3 items-center">
+                    
+                    <!-- i added this search icon here -->
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    
+                    <input type="search"placeholder="Search meals..." class="outline-none" >
+                    
+                        
                 </div>
 
             </div>
@@ -120,14 +124,16 @@
             </div>
 
             <!-- Hero Image Section -->
+             
             <div
-                class="h-87.5 rounded-2xl border-4 border-dashed border-red-300 flex items-center justify-center bg-white shadow-md"
-            >
+                class="h-87.5 rounded-2xl flex items-center justify-center bg-white shadow-md">
 
                 <!-- Replace this with your image later -->
-                <p class="text-gray-500 text-lg font-medium">
+                 <img src="./images/hero-page.png" alt="hero-page" class="h-full w-full rounded-2xl" >
+
+                <!-- <p class="text-gray-500 text-lg font-medium">
                     Food Image Goes Here
-                </p>
+                </p> -->
 
             </div>
 
@@ -140,45 +146,45 @@
 <!-- =========================
      MAIN PRODUCTS SECTION
 ========================== -->
-<main class="flex max-w-7xl mx-auto w-full py-10 gap-8">
+<main class="flex max-w-7xl mx-auto w-full py-10 gap-8 ">
 
     <!-- =========================
          LEFT SIDEBAR
     ========================== -->
-    <aside class="w-64 sticky top-24 h-fit bg-white rounded-xl shadow-lg p-6">
+    <aside class="w-64 sticky top-24 max-h-120 bg-white rounded-xl shadow-lg p-6  ">
 
         <h2 class="text-xl font-bold text-red-900 mb-6">
             Categories
         </h2>
 
-        <ul class="space-y-4">
+        <ul class="space-y-4  h-100 flex flex-col gap-6 ">
 
             <li>
-                <a href="#rice" class="block hover:text-red-700 font-medium">
+                <a href="#rice" class="block hover:text-red-700 font-medium hover:text-3xl">
                     Rice Dishes
                 </a>
             </li>
 
             <li>
-                <a href="#soups" class="block hover:text-red-700 font-medium">
+                <a href="#soups" class="block hover:text-red-700 font-medium hover:text-3xl">
                     Soups
                 </a>
             </li>
 
             <li>
-                <a href="#swallows" class="block hover:text-red-700 font-medium">
+                <a href="#swallows" class="block hover:text-red-700 font-medium hover:text-3xl">
                     Swallows
                 </a>
             </li>
 
             <li>
-                <a href="#protein" class="block hover:text-red-700 font-medium">
+                <a href="#protein" class="block hover:text-red-700 font-medium hover:text-3xl">
                     Protein
                 </a>
             </li>
 
             <li>
-                <a href="#drinks" class="block hover:text-red-700 font-medium">
+                <a href="#drinks" class="block hover:text-red-700 font-medium hover:text-3xl">
                     Drinks
                 </a>
             </li>
@@ -208,6 +214,7 @@
 
                             <div class="h-40 bg-gray-200 rounded-lg mb-4">
                                 <!-- Food Image -->
+                                 <img src="./images/jellof-rice.jpg" alt="jollof-rice" class="h-full" >
                             </div>
 
                             <h3 class="font-bold text-lg">
@@ -234,6 +241,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img  src="./images/fried-rice.jpg" alt="fried-rice " class="h-full"   >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -259,6 +267,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/native rice.jpg" alt="native-rice" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -284,6 +293,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/coconut-rice.jpg" alt="coconut-rice" class="h-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -308,6 +318,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/white-rice.jpg" alt="white-rice" class="h-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -348,6 +359,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/egusi.jpg" alt="egusi" class="h-full w-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -373,6 +385,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/okro soup.jpg" alt="okro-soup" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -398,6 +411,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/black soup.jpg" alt="black-soup" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -423,6 +437,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/oha soup.jpg" alt="oha-soup" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -448,6 +463,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/ogbuno soup.jpg" alt="ogbuno-soup" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -490,6 +506,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/eba.jpg" alt="eba" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -515,6 +532,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/fufu.jpg" alt="fufu" class="w-full h-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -540,6 +558,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/amala.jpg" alt="amala" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -565,6 +584,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/semo.jpg" alt="semo" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -590,6 +610,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/pounded-yam.jpg" alt="pounded-yam" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -634,6 +655,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/beef.jpg" alt="beef" class="h-full w-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -659,6 +681,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/cow-meat.jpg" alt="cow-meat" class="h-full w- full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -684,6 +707,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/fried-chicken.jpg" alt="fried-chicken" class="h-full w-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -709,6 +733,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/turkey.jpg" alt="turkey" class="h-full w-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -734,6 +759,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/fried-fish.jpg" alt="fried-fish" class="h-full w-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -778,6 +804,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/coke.jpg" alt="coke" class="h-full self-center" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -803,6 +830,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/fanta.jpg" alt="fanta" class="h-full w-full" >
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -828,6 +856,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/hero-beer.jpg" alt="hero-beer" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -853,6 +882,7 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/life-beer.jpg" alt="life-beer" class="h-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
@@ -878,10 +908,11 @@
 
                     <div class="h-40 bg-gray-200 rounded-lg mb-4">
                         <!-- Food Image -->
+                         <img src="./images/guinness.jpg" alt="guinness" class="h-full w-full">
                     </div>
 
                     <h3 class="font-bold text-lg">
-                        Guniness Small-Stout
+                        Guinness Small-Stout
                     </h3>
 
                     <p class="text-gray-600">
@@ -906,7 +937,7 @@
 
     </div>
 
-
+</main>
 
 
 
@@ -924,6 +955,23 @@
                 <p>
                     © 2026 MamaPutOnline. All Rights Reserved.
                 </p>
+                <!-- vibed engineered here by add custom icon to the links and also styled it  -->
+                <div class="flex gap-6  text-2xl">
+                     
+                    <a href="#" class="hover:text-yellow-400 hover:animate-ping "> <i class="fa-brands fa-facebook"></i></a>
+                     
+                    <a href="#"class="hover:text-yellow-400 hover:animate-ping "><i class="fa-brands fa-instagram"></i></a>
+                     
+                     
+                     <a href="#" class="hover:text-yellow-400 hover:animate-ping "><i class="fa-brands fa-whatsapp"></i></a>
+                     
+                     
+                     <a href="#" class="hover:text-yellow-400 hover:animate-ping"> <i class="fa-brands fa-x-twitter"></i></a>
+                    
+                    
+                    
+                    
+                </div>
 
                 <!-- Footer Links -->
                 <div class="flex gap-6">
